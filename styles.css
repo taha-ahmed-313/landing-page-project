@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #1F2937;
+}
+
+.header {
+    height: 70px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-content {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.header-content img {
+    height: auto;
+    width: 50%;
+}
+
+.header-content div, .header-img-2 {
+    flex: 1;
+}
+
+.header-img-2 {
+    text-align: center;
+}
+
+.header-btn, .signup-btn {
+    padding: 7px 15px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second-section {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second-section h2 {
+    padding: 30px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.photo-holders {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo-holders div {
+    width: 20%;
+    height: auto;
+    object-fit: contain;
+    padding-bottom: 50px;
+}
+
+.photo-holders img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    border: 2px solid #3882f6;
+    border-radius: 5%;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.third-section div {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.author {
+    text-align: right;
+}
+
+.signup-div {
+    width: 70%;
+    background-color: #3882f6;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+}
+
+.signup-btn {
+    border: 1px solid white;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 5px;
+    color: white;
+}
